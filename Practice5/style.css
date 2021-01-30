@@ -1,0 +1,202 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+/* google font family */
+/* 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* container */
+.container{
+    margin: auto;
+    width: 80%;
+}
+/* design */
+.design{
+    margin: 33px;
+}
+/* design heading */
+.design h2{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* design 1 */
+.mwhe1{
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 1px 1px 8px 0px #909090;
+    margin: auto;
+    height: 60px;
+    width: 600px;
+}
+.mwhe1 ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mwhe1 ul li{
+    padding-top: 16px;
+}
+.mwhe1 ul li a{
+    color: #808080;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    padding: 5px 10px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.mwhe1 ul li a:hover{
+    color: #FCA603;
+    border-bottom: 5px solid #FCA603;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+}
+/* design 2 */
+.usmb{
+    background-color: white;
+    box-shadow: 1px 2px 2px 2px #b9b9b9;
+    margin: auto;
+    height: 80px;
+    width: 600px;
+}
+.usmb ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.usmb ul li a{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.usmb ul li a:hover{
+    border-bottom: 2px solid #c20202;
+    color: #c20202;
+    transition: 0.1s;
+}
+/* design 3 */
+.hddm1{
+    background: linear-gradient(180deg,rgba(58, 58, 58, 0.836) 25%, rgb(61, 61, 61));
+    height: 60px;
+    margin: auto;
+    width: 600px;
+}
+.hddm1 ul{
+    list-style-type: none;
+}
+.hddm1 a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.hddm1 button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    outline: none;
+    padding: 0px 12px;
+    padding-bottom: 18px;
+    text-transform: capitalize;
+}
+.hddm1 button:hover{
+    cursor: pointer;
+}
+.mul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mul li{
+    border-right: 1px solid #808080;
+    padding: 18px 12px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.mul li:last-child{
+    border-right: none;
+}
+.mul li a{
+    color: white;
+    text-decoration: none;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown button{
+    text-align: center;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:focus .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    z-index: 1;
+}
+.dropdown-content ul{
+    padding-left: 0;
+    text-align: center;
+}
+.ul-dc li{
+    background: linear-gradient(180deg,rgba(58, 58, 58, 0.836) 25%, rgb(61, 61, 61));
+    padding: 12px 16px;
+}
+.sub-dropdown{
+    display: inline-block;
+    position: relative;
+}
+.sub-dropdown button{
+    min-width: 150px;
+    padding-bottom: 0;
+    text-align: center;
+}
+.sub-dropdown button i{
+    text-align: center;
+}
+.sub-dropdown:hover .sub-ddcontent{
+    display: block;
+}
+.sub-dropdown:focus .sub-ddcontent{
+    display: block;
+}
+.sub-ddcontent{
+    display: none;
+    position: absolute;
+    top:0;
+    right: -151px;
+    min-width: 150px;
+    z-index: 1;
+}
+.sub-ddcontent a{
+    background: linear-gradient(180deg,rgba(58, 58, 58, 0.836) 25%, rgb(61, 61, 61));
+    display: block;
+    padding: 10px 12px;
+}
